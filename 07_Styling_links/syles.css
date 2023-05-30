@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+/* main{
+    opacity: 0.6;
+} */
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(215, 70, 70);
+}
+
+a{
+    color: #e95959;
+}
+
+/* pseudo class - reprsents the current state of element as for anchor link state can be changed */
+
+a:visited{
+    color:hsl(121, 53%, 56%);
+}
+
+a:hover ,a:focus{
+    /* color:salmon; */
+    /* opacity: 0.7; */
+    color:hsl(121, 53%, 56%,0.8);
+    background-color: gold;
+}
+
+a:active{
+    color:rgb(27, 239, 101);
+}

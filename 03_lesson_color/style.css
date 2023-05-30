@@ -1,0 +1,14 @@
+body{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color :#ffefd5;
+    color: #02027e;
+}
+/* 
+rgb -> red green blue
+a-> transparency */
+
+p{
+    color: #6a0606;
+}

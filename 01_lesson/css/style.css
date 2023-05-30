@@ -1,0 +1,53 @@
+/* Universal Selector
+    * {
+    font-family: monospace;
+} */
+/* * {
+    border: 1px solid rgba(255, 0, 0, 0.251);
+} */
+
+html {
+    font-size:9px;
+}
+
+main{
+    font-family: monospace;
+}
+
+
+/* body{
+    font-size:22px;
+    border:3px solid black;
+} */
+p{
+    color: purple!important;
+}
+
+p{
+    color: red; 
+}
+
+h1{
+    color:brown;
+}
+
+.gray{
+    color:gray;
+}
+.satyam{
+    color:red;
+}
+
+/* p span{
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+#second{
+    font-style:italic;
+}
+

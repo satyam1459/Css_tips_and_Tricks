@@ -1,0 +1,31 @@
+/* header{
+    width: 80%;
+} */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+body{
+    width: 100%;
+}
+h1{
+    border: 3px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    width: 40ch;
+}

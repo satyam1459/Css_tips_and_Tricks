@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+body{
+    padding: 5% 10%;
+    font-size:2rem;
+    font-family: 'Roboto',sans-serif;
+}
+
+ol{
+    list-style-type: lower-roman;
+    padding: 0;
+}
+
+ul{
+    list-style-type:square;
+    text-align: center;
+    list-style-position:inside;
+    color:blue;
+    line-height: 1.6;
+    /* list-style-image: url("/08_list_styles/img/checkmark.webp"); */
+    /* list-style: square url("/08_list_styles/img/checkmark.webp"); */
+}
+
+ul li{
+    color:red;
+}
+ul li:nth-child(odd){
+    color:blue;
+}
+
+ul ::marker {
+    color: yellow;
+    font-family: fantasy;
+    font-size: 1em;
+    content:"only 5 $>> ";
+}

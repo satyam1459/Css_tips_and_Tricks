@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* main{
+    background-color: aqua;   
+}
+
+p {
+    background-color: burlywood;
+    font-size: 32px;
+}
+.opposite{
+    display: inline-block;
+    background-color: #333;
+    color:whitesmoke;
+    margin-top: 100px;
+    height: 200px;
+    padding: 4rem;
+} */
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align:right;
+    background-color: rgb(11, 7, 0);
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    margin-inline:1.5rem;
+}
+
+li a{
+    color:#fff;
+    text-decoration: none;
+}
+li a:hover , li a:focus{
+    color:rgb(75, 114, 186);
+    text-decoration: underline;
+}

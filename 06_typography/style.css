@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+/* 
+Typography is the way that text is arranged and presented
+ */
+ body{
+    padding: 10%;
+    font-size:2rem;
+    font-family: 'Robott',sans-serif;
+}
+
+
+/* input,button{
+    font:inherit;
+} */
+
+
+p{
+    /* text-decoration:overline;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height:1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em; */
+    /* font-weight: bold; */
+    /* font-style: italic; */
+}
