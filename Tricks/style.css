@@ -1,0 +1,8 @@
+h1{
+    font-size:40px;
+    color: yellow;
+    font-weight: 900;
+    -webkit-text-stroke: 0.5px red;
+    /* color: transparent; */
+}
+
